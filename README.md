@@ -1,38 +1,53 @@
 # Prism-Insurance---Claims-and-Policy-Performance-Overview
-# Power BI Prism: Advanced Data Insights
+# 📊 Power BI Prism - Insurance Claims & Policy Performance Dashboard  
 
-🚀 **Power BI Prism** is a dynamic dashboard that provides actionable insights using advanced analytics features like **Sentiment Analysis, Drill Through Filters, and Scheduled Refresh**. 
+## 🚀 Project Overview  
+Power BI Prism is a comprehensive dashboard designed to analyze **insurance claims, policy performance, and customer feedback**.  
+The project incorporates **Sentiment Analysis**, **Drill-Through Filters**, and **Scheduled Refresh** to deliver valuable insights.  
 
-## 📌 Key Features
-- **🔍 Sentiment Analysis** – Categorizes customer feedback into Positive, Neutral, and Negative to measure brand perception.
-- **📊 Drill Through Filter** – Enables users to deep dive into specific data points for detailed insights.
-- **⏳ Scheduled Refresh** – Ensures data is automatically updated for real-time accuracy.
-- **📈 Interactive Visuals** – Engaging dashboards with KPI indicators, trends, and performance metrics.
+---
 
-## 📸 Dashboard Views
-Here are snapshots of the Power BI Prism dashboard:
+## 📌 Features  
 
-1️⃣ **Overview Dashboard**  
-![Overview Dashboard](screenshots/overview.png)
+### 1️⃣ **Dashboard Overview (Main Report)**
+🔹 Displays key insurance claim metrics like **Premium Amount, Coverage Amount, and Total Claims**  
+🔹 Gender-wise segmentation of claim numbers  
+🔹 Breakdown of claim status (**Rejected, Settled, Pending**)  
+🔹 Distribution of claim amounts by **Policy Type & Age Group**  
+🔹 **Active vs. Inactive Policies** visualized using a donut chart  
+🔹 Interactive filters for **Policy Number, Claim Number, and Customer ID**  
 
-2️⃣ **Sentiment Analysis Dashboard**  
-![Sentiment Analysis](screenshots/sentiment_analysis.png)
+🖼 **Dashboard Screenshot:**  
+![Dashboard View](./Screenshots/Dashboard_View_1.png)  
 
-3️⃣ **Drill Through Filter View**  
-![Drill Through](screenshots/drill_through.png)
+---
 
-## 🚀 How to Use
-1. **Download the PBIX File** from this repository.
-2. **Open in Power BI Desktop** and explore interactive visuals.
-3. **Enable Scheduled Refresh** to keep data updated.
+### 2️⃣ **Table View (Data Exploration)**
+🔹 Provides a tabular view of all **insurance claim records**  
+🔹 Contains fields such as **Customer ID, Claim Number, Age, Gender, Coverage Amount, Premium Amount, Policy Start/End Date, Claim Status, and Claim Date**  
+🔹 Enables easy validation and exploration of **insurance records**  
 
-🔗 **[View Full Project on Power BI Service](YOUR_LINK_HERE)**
+🖼 **Table View Screenshot:**  
+![Table View](./Screenshots/Dashboard_View_2.png)  
 
-## 🔥 Get Started
-To explore or modify the project:
-```bash
-# Clone the repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/PowerBI-Prism.git
-```
+---
 
-📧 **For queries or feedback, feel free to connect!**
+### 3️⃣ **Customer Feedback & Sentiment Analysis**
+🔹 **Word Cloud Visualization** to highlight frequent terms in customer feedback  
+🔹 **Sentiment Score Calculation** based on feedback (Positive, Negative, Neutral)  
+🔹 Categorized feedback insights: **Excellent, Good, Needs Improvement**  
+🔹 Helps identify **customer satisfaction trends** and areas for service improvement  
+
+🖼 **Sentiment Analysis Screenshot:**  
+![Sentiment Analysis](./Screenshots/Dashboard_View_3.png)  
+
+---
+
+## 🎯 **Technical Implementation**  
+
+### ✅  Sentiment Analysis (Text Processing)**
+- Used **Power BI Text Analytics** to classify customer feedback  
+- Implemented **Score Sentiment Measure** to categorize feedback into:  
+  - Positive (Above 0.5)  
+  - Neutral (0.3 - 0.5)  
+  - Negative (Below 0.3)  
