@@ -18,7 +18,7 @@ The project incorporates **Sentiment Analysis**, **Drill-Through Filters**, and 
 🔹 Interactive filters for **Policy Number, Claim Number, and Customer ID**  
 
 🖼 **Dashboard Screenshot:**  
-![Dashboard View](./Screenshots/Dashboard_View_1.png)  
+![Dashboard View](https://github.com/Shivansh7678/Prism-Insurance---Claims-and-Policy-Performance-Overview/blob/main/Dashboard%20View/Dashboard%20view%201.png?raw=true)  
 
 ---
 
@@ -28,7 +28,7 @@ The project incorporates **Sentiment Analysis**, **Drill-Through Filters**, and 
 🔹 Enables easy validation and exploration of **insurance records**  
 
 🖼 **Table View Screenshot:**  
-![Table View](./Screenshots/Dashboard_View_2.png)  
+![Table View](https://github.com/Shivansh7678/Prism-Insurance---Claims-and-Policy-Performance-Overview/blob/main/Dashboard%20View/Dashboard%20view%202.png?raw=true)  
 
 ---
 
@@ -39,7 +39,7 @@ The project incorporates **Sentiment Analysis**, **Drill-Through Filters**, and 
 🔹 Helps identify **customer satisfaction trends** and areas for service improvement  
 
 🖼 **Sentiment Analysis Screenshot:**  
-![Sentiment Analysis](./Screenshots/Dashboard_View_3.png)  
+![Sentiment Analysis](https://github.com/Shivansh7678/Prism-Insurance---Claims-and-Policy-Performance-Overview/blob/main/Dashboard%20View/Dashboard%20view%203.png?raw=true)  
 
 ---
 
